@@ -11,6 +11,8 @@ Plug 'Valloric/YouCompleteMe'
 "NerdTee
 Plug 'scrooloose/nerdtree'
 
+"NERD Commenter to comment many lines
+Plug 'scrooloose/nerdcommenter'
 
 "Latex 
 Plug 'lervag/vimtex'
@@ -20,7 +22,21 @@ Plug 'junegunn/goyo.vim'
 
 "For Numbering
 Plug 'myusuf3/numbers.vim'
+
+"Markdown
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+"Status Bar
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+"Exploration status Git
+Plug 'tpope/vim-fugitive'
+
 call plug#end()
+" Thème status bar
+set laststatus=2
+let g:airline_powerline_fonts = 1
+
 " show the line number in front of each line
 set number
 "
@@ -38,4 +54,7 @@ inoremap <silent> <F7> <C-O>:set spell! spelllang=fr<CR>
 vnoremap <silent> <F7> <ESC>:set spell! spelllang=fr<CR>gv
 
 map <F12> :NERDTreeToggle<CR>
+
+let mapleader = "\<Space>"
+
 
