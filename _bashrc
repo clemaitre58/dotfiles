@@ -116,8 +116,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# added by Anaconda2 2.4.1 installer
-export PATH="/home/cedric/anaconda2/bin:$PATH"
+# added by Miniconda3 4.3.21 installer
+export PATH="/home/cedric/miniconda3/bin:$PATH"
 
-source ~/.bash-git-prompt/gitprompt.sh
 GIT_PROMPT_ONLY_IN_REPO=1
+source ~/.bash-git-prompt/gitprompt.sh
