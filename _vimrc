@@ -46,9 +46,26 @@ Plug 'honza/vim-snippets'
 " Supertab
 Plug 'ervandew/supertab'
 
+"Check on fly
+Plug 'vim-syntastic/syntastic'
+
+
 call plug#end()
+
+
+:set foldmethod=indent
+
 " Dossier swapfile
 :set directory=$HOME/.vim/swapfiles//
+"Config check on fly
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " make YCM compatible with UltiSnips (using supertab)
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
