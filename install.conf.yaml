@@ -10,6 +10,7 @@
     ~/.vimrc: _vimrc
     ~/.bashrc: _bashrc
     ~/.gitconfig: _gitconfig
+    ~/.teamocil: _teamocil
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

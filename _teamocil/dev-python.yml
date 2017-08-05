@@ -1,0 +1,9 @@
+windows:
+  - name: dev-python
+    root: ~/Documents/Code/LibSensor
+    layout: even-vertical
+    panes:
+      - vim
+      - commands:
+        - git status
+      - rails server
