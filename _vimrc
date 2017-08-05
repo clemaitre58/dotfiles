@@ -49,14 +49,25 @@ Plug 'ervandew/supertab'
 "Check on fly
 Plug 'vim-syntastic/syntastic'
 
+"python-mode for Vim like an IDE
+Plug 'python-mode/python-mode'
 
 call plug#end()
 
+"Python mode
+"let g:syntastic_ignore_files = ['\.py$']
+let g:pymode_lint = 0
+let g:pymode_lint_on_write = 0
+let g:pymode_python = 'python3'
+let g:pymode_breakpoint_cmd = 'import ipdb; ipdb.set_trace()  # XXX BREAKPOINT'
 
-:set foldmethod=indent
+
+" For Folding code with indentation
+set foldmethod=indent
 
 " Dossier swapfile
-:set directory=$HOME/.vim/swapfiles//
+set directory=$HOME/.vim/swapfiles//
+
 "Config check on fly
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -74,8 +85,8 @@ let g:SuperTabDefaultCompletionType = '<C-n>'
 "
 " " better key bindings for UltiSnipsExpandTrigger
 let g:UltiSnipsExpandTrigger = "<tab>"
-let g:UltiSnipsJumpForwardTrigger = "<tab>"
-let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+let g:UltiSnipsJumpForwardTrigger = "<Left>"
+let g:UltiSnipsJumpBackwardTrigger = "<Right>"
 
 autocmd FileType python map <buffer> <F3> :call Flake8()<CR>
 

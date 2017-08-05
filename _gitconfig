@@ -1,0 +1,13 @@
+[user]
+	email = c.lemaitre58@gmail.com
+	name = Cédric Lemaitre
+[alias]
+	ci = commit
+	co = checkout
+	f = fetch
+	s = status
+	b = branch
+	d = diff
+	a = add
+	l = log
+	g = grep
