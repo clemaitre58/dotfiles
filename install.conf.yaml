@@ -11,6 +11,7 @@
     ~/.bashrc: _bashrc
     ~/.gitconfig: _gitconfig
     ~/.teamocil: _teamocil
+    ~/.config/zathura/zathurarc : _zathurarc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
