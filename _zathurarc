@@ -1,2 +1,14 @@
 # enable copying to clipboard
 set selection-clipboard clipboard
+
+# keymap for bépo
+map <PageUp> navigate previous
+map <PageDown> navigate next
+map t scroll up
+map s scroll down
+map T scroll half-up
+map S scroll half-down
+
+# resize windows
+map b adjust_window best-fit
+map a adjust_window width
