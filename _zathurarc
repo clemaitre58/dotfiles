@@ -1,0 +1,2 @@
+# enable copying to clipboard
+set selection-clipboard clipboard
