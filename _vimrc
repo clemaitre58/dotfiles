@@ -63,6 +63,7 @@ let g:pymode_breakpoint_cmd = 'import ipdb; ipdb.set_trace()  # XXX BREAKPOINT'
 
 
 " For Folding code with indentation
+" NB : Za and Zc to fold and unfold
 set foldmethod=indent
 
 " Dossier swapfile
