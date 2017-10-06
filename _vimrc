@@ -114,6 +114,11 @@ vnoremap <silent> <F4> <ESC>:NumbersToggle<CR>gv
 noremap <silent> <F7> :set spell! spelllang=fr<CR>
 inoremap <silent> <F7> <C-O>:set spell! spelllang=fr<CR>
 vnoremap <silent> <F7> <ESC>:set spell! spelllang=fr<CR>gv
+" quick fix and navigation in spelling mode
+imap <c-f> <c-g>u<Esc>[s1z=`]a<c-g>u
+nmap <c-f> [s1z=<c-o>
+
+
 "Nerdtree sur F12
 map <F12> :NERDTreeToggle<CR>
 
