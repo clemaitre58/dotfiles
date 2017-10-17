@@ -53,6 +53,10 @@ Plug 'vim-syntastic/syntastic'
 Plug 'python-mode/python-mode'
 
 call plug#end()
+" settings for tab 
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 
 "Python mode
 "let g:syntastic_ignore_files = ['\.py$']
