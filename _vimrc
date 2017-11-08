@@ -53,6 +53,9 @@ Plug 'vim-syntastic/syntastic'
 Plug 'python-mode/python-mode'
 
 call plug#end()
+" toogle Paste
+set pastetoggle=<F2>
+
 " settings for tab 
 set tabstop=4
 set softtabstop=4
