@@ -116,8 +116,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# alias python='/usr/bin/python3.5'
+
 # added by Miniconda3 4.3.21 installer
 export PATH="/home/cedric/miniconda3/bin:$PATH"
 
 GIT_PROMPT_ONLY_IN_REPO=1
+GIT_PROMPT_THEME=Solarized
 source ~/.bash-git-prompt/gitprompt.sh

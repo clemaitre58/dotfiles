@@ -7,7 +7,7 @@ Plug 'clemaitre58/dvorak-bepo'
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 
 "YCM autocompletion
-Plug 'Valloric/YouCompleteMe'
+"Plug 'Valloric/YouCompleteMe'
 
 "NerdTee
 Plug 'scrooloose/nerdtree'
@@ -60,6 +60,7 @@ set pastetoggle=<F2>
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+
 
 "Python mode
 "let g:syntastic_ignore_files = ['\.py$']
