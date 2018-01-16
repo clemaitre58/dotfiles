@@ -62,6 +62,9 @@ set softtabstop=4
 set shiftwidth=4
 
 
+" For BackSpace problem
+set bs=indent,eol,start  
+
 "Python mode
 "let g:syntastic_ignore_files = ['\.py$']
 let g:pymode_lint = 0

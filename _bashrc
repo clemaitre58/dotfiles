@@ -120,6 +120,7 @@ fi
 
 # added by Miniconda3 4.3.21 installer
 export PATH="/home/cedric/miniconda3/bin:$PATH"
+alias python='/usr/bin/python3.5'
 
 GIT_PROMPT_ONLY_IN_REPO=1
 GIT_PROMPT_THEME=Solarized
