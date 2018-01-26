@@ -52,6 +52,10 @@ Plug 'vim-syntastic/syntastic'
 "python-mode for Vim like an IDE
 Plug 'python-mode/python-mode'
 
+"Integrated GDB in VIm
+Plug 'vim-scripts/Conque-GDB'
+
+
 call plug#end()
 " toogle Paste
 set pastetoggle=<F2>
