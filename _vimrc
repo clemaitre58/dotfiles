@@ -35,7 +35,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'nvie/vim-flake8'
 
 "For Numbering
-Plug 'myusuf3/numbers.vim'
+"Plug 'myusuf3/numbers.vim'
 
 " Track the engine.
 Plug 'SirVer/ultisnips'
@@ -51,6 +51,10 @@ Plug 'vim-syntastic/syntastic'
 
 "python-mode for Vim like an IDE
 Plug 'python-mode/python-mode'
+
+"Integrated GDB in VIm
+Plug 'vim-scripts/Conque-GDB'
+
 
 call plug#end()
 " toogle Paste
