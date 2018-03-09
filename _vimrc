@@ -55,6 +55,9 @@ Plug 'python-mode/python-mode'
 "Integrated GDB in VIm
 Plug 'vim-scripts/Conque-GDB'
 
+"Plugging for arduino in VIM
+Plug 'stevearc/vim-arduino'
+
 
 call plug#end()
 " toogle Paste
@@ -91,6 +94,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " make YCM compatible with UltiSnips (using supertab)
+let g:ycm_python_binary_path = '/usr/bin/python3'
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 let g:SuperTabDefaultCompletionType = '<C-n>'
