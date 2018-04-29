@@ -70,6 +70,9 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
+" In order to work properly backspace and dell
+set backspace=indent,eol,start
+
 "Python mode
 "let g:syntastic_ignore_files = ['\.py$']
 let g:pymode_lint = 0
@@ -80,7 +83,7 @@ let g:pymode_breakpoint_cmd = 'import ipdb; ipdb.set_trace()  # XXX BREAKPOINT'
 
 " For Folding code with indentation
 " NB : Za and Zc to fold and unfold
-set foldmethod=indent
+" set foldmethod=indent
 
 " Dossier swapfile
 set directory=$HOME/.vim/swapfiles//
